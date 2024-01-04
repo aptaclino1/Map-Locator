@@ -14,6 +14,7 @@
 		8CB7F15D2AED41540069EC35 /* MapKitTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7F15B2AED41540069EC35 /* MapKitTestApp.xcdatamodeld */; };
 		8CB7F15F2AED41560069EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB7F15E2AED41560069EC35 /* Assets.xcassets */; };
 		8CB7F1622AED41560069EC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB7F1602AED41560069EC35 /* LaunchScreen.storyboard */; };
+		8CB7F16A2AED54360069EC35 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7F1692AED54360069EC35 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8CB7F15E2AED41560069EC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB7F1612AED41560069EC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB7F1632AED41560069EC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB7F1692AED54360069EC35 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8CB7F1542AED41540069EC35 /* SceneDelegate.swift */,
 				8CB7F1562AED41540069EC35 /* ViewController.swift */,
 				8CB7F1582AED41540069EC35 /* Main.storyboard */,
+				8CB7F1692AED54360069EC35 /* MainViewController.swift */,
 				8CB7F15E2AED41560069EC35 /* Assets.xcassets */,
 				8CB7F1602AED41560069EC35 /* LaunchScreen.storyboard */,
 				8CB7F1632AED41560069EC35 /* Info.plist */,
@@ -145,6 +148,7 @@
 				8CB7F15D2AED41540069EC35 /* MapKitTestApp.xcdatamodeld in Sources */,
 				8CB7F1532AED41540069EC35 /* AppDelegate.swift in Sources */,
 				8CB7F1552AED41540069EC35 /* SceneDelegate.swift in Sources */,
+				8CB7F16A2AED54360069EC35 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +300,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPCY99TS9R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MapKitTestApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.MapKitTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeloCide.MapKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,8 +329,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPCY99TS9R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MapKitTestApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.MapKitTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GeloCide.MapKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
